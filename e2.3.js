@@ -1,8 +1,8 @@
 / задание 1 /
 
-var a = prompt('Введите что-то');
+let a = prompt('Введите что-то');
 alert(+a);
-var num = +a;
+let num = +a;
 alert(typeof(+a));
 if (num % 2 === 0)  {
   console.log('Число четное');
